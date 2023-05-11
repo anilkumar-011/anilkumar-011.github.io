@@ -1,0 +1,311 @@
+/* ---------------global---------------- */
+
+body{
+    margin: 0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont;
+}
+
+
+
+
+
+
+
+
+
+
+/* ---------------header--------------- */
+
+header{
+    background-color:deepskyblue;
+
+}
+
+header h2{
+    font-family:sans-serif;
+    color:black;
+    display: inline-block;
+    padding: 0 2%;
+    /* background-color:lightcyan; */
+    margin-left: 2%;
+}
+
+header h1{
+    display: inline-block;
+    width: fit-content;
+    margin: 0 auto;
+    padding-left: 25% ;
+    font-style: italic;
+    font-family:cursive;
+    font-size:40px;
+}
+
+
+.nav{
+    background-color: lightskyblue;
+    text-align: left;
+    padding:15px;
+    position:sticky;
+    top: 5px;
+
+}
+
+.nav a{
+    text-decoration: none;
+    padding: 10px  30px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    font-size: larger;
+    color: black;
+}
+
+.nav a:hover{
+    background-color:white;
+    border-radius: 10px;
+    font-size: x-large;
+    /* color: white; */
+}
+
+
+
+/* --------------personal details------------------ */
+
+.personal{
+    border:2px solid black;
+    border-radius: 30px;
+    margin: 30px 200px;
+    background-color: rgba(255, 255, 224, 0.584);
+    margin-left: 100px;
+    overflow: hidden;
+}
+
+.personal h2{
+    margin: 10px 0;
+    display: inline-block;
+    padding:0 30px;
+    border: 2px black solid;
+    border-radius: 20px;
+    font-weight: 400;
+    
+}
+
+.personal img{
+    padding: 3px;
+    border:2px;
+    margin: 10px;
+    float: left;
+    border-radius: 30px;
+    width:250px;
+    height: 350px;
+}
+
+.personal .text{
+    font-size: larger;
+    display: inline-block;
+    font-weight: 500;
+    margin: 20px;
+    margin-bottom: 0;
+
+}
+
+
+
+
+/* ------------education----------- */
+
+.edu{
+    border:2px solid black;
+    border-radius: 30px;
+    margin: 30px 200px;
+    background-color: rgba(32, 178, 171, 0.555);
+    margin-right: 100px;
+    overflow: hidden;
+}
+
+.edu img{
+    width:auto;
+    height:350px;
+    float: right;
+    margin: 10px;
+    border-radius: 30px;
+}
+
+.edu .text{
+    font-size: larger;
+    font-size: larger;
+    display: inline-block;
+    font-weight: 500;
+    margin: 0 0 0 20px;
+    margin-bottom: 0;
+}
+
+.edu h2{
+    width: max-content;
+    margin: 10px 0;
+    display: block;
+    margin-left: 20px;
+    padding:0 50px;
+    border: 2px black solid;
+    border-radius: 20px;
+    font-weight: 400;
+    
+}
+
+/* --------------------projects---------------- */
+
+
+.projects{
+    border: 2px black solid;
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: rgba(255, 0, 0, 30%);
+    margin: 30px 200px;
+    margin-left: 100px;
+
+}
+
+.projects img{
+    width: 250px;
+    height: 340px;
+    float: left;
+    margin: 10px;
+    background-color:white;
+    border-radius:30px;
+}
+
+.projects .text{
+    font-size: larger;
+    display: inline-block;
+    font-weight: 500;
+    margin: 20px;
+    margin-bottom: 0;
+    width: 70%;
+}
+
+.projects h2{
+    margin: 10px 0;
+    display: inline-block;
+    padding:0 30px;
+    border: 2px black solid;
+    border-radius: 20px;
+    font-weight: 400;
+    
+}
+
+
+/* ---------------hobbies---------------- */
+.hobby{
+    border: 2px black solid;
+    border-radius: 30px;
+    overflow: hidden;
+    margin: 30px 200px;
+    margin-right: 100px;
+    background-color: rgba(209, 255, 182, 0.511);
+}
+
+.hobby img{
+    width: 260px;
+    height: 340px;
+    float: right;
+    margin: 10px;
+    border-radius: 30px;
+}
+
+.hobby .text{
+    font-size: larger;
+    display: inline-block;
+    font-weight: 500;
+    margin: 20px;
+    margin-bottom: 0;
+    width: 70%;
+}
+
+.hobby h2{
+    margin: 10px 0;
+    display: inline-block;
+    padding:0 30px;
+    border: 2px black solid;
+    border-radius: 20px;
+    font-weight: 400;
+}
+
+
+
+/* -------------footer------------------- */
+
+footer{
+    background-color:deepskyblue;
+    margin:0 10px 30px;
+    border-radius: 50px;
+    padding: 10px;
+    overflow: hidden;
+    font-size: large;
+    border: 2px black solid;
+    font-weight: 500;
+}
+
+footer h1{
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    color:darkslategray;
+}
+
+footer h2{
+    border-bottom:  3px solid white;
+}
+
+footer .social{
+    /* display: inline-block; */
+    float: left;
+    color: aliceblue;
+    margin:0 10%;
+    border: 3px solid white;
+    border-radius: 25px;
+    padding: 0 5%;
+}
+
+footer .social a{
+    text-decoration: none;
+    color:black;
+    font-size: larger;
+    display: block;
+    text-align: center;
+    margin-bottom: 6px;
+    border-bottom:dashed 2px black ;
+
+}
+
+footer .social a:hover{
+    background-color: white;
+    border-radius: 10px;
+    font-size: x-large;
+}
+
+footer .contact{
+    border: 3px white solid;
+    border-radius: 25px;
+    float: right;
+    text-align: center;
+    color: white;
+    margin: 0 10%;
+}
+
+footer .contact li{
+    color:black;
+    display: block;
+    font-size: larger;
+    text-decoration: none;
+    list-style-type: none;
+    border-bottom: 2px black dashed;
+    margin:0 50px;
+}
+
+footer .contact li:hover{
+    background-color: white;
+    border-radius: 5px;
+    font-size: x-large;
+}
+
+footer .contact ul{
+    padding: 0;
+}
